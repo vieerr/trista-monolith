@@ -1,0 +1,486 @@
+[
+  {
+    "number": "001",
+    "client": "TechCorp Inc.",
+    "type": "Simple",
+    "paymentMethod": "Bank Transfer",
+    "date": "2025-01-05",
+    "due_date": "2025-01-19",
+    "amount": 360,
+    "products": [
+      {
+        "id": "row1",
+        "product": {
+          "id": "1023456",
+          "name": "Cotton T-Shirt",
+          "reference": "TSH-001",
+          "price": 30,
+          "taxRate": 20
+        },
+        "reference": "TSH-001",
+        "price": 30,
+        "discount": 0,
+        "tax": { "id": 1, "name": "IVA 20%", "rate": 20 },
+        "quantity": 10,
+        "total": 360
+      }
+    ],
+    "status": "Paid"
+  },
+  {
+    "number": "002",
+    "client": "GrowEasy LLC",
+    "type": "Simple",
+    "paymentMethod": "Credit Card",
+    "date": "2025-02-01",
+    "due_date": "2025-02-15",
+    "amount": 440,
+    "products": [
+      {
+        "id": "row2",
+        "product": {
+          "id": "2034567",
+          "name": "Leather Jacket",
+          "reference": "JCK-001",
+          "price": 200,
+          "taxRate": 10
+        },
+        "reference": "JCK-001",
+        "price": 200,
+        "discount": 20,
+        "tax": { "id": 2, "name": "IVA 10%", "rate": 10 },
+        "quantity": 2,
+        "total": 396
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "number": "003",
+    "client": "BlueWave Solutions",
+    "type": "Simple",
+    "paymentMethod": "PayPal",
+    "date": "2025-03-10",
+    "due_date": "2025-03-24",
+    "amount": 150,
+    "products": [
+      {
+        "id": "row3",
+        "product": {
+          "id": "3045678",
+          "name": "Running Shoes",
+          "reference": "SHO-001",
+          "price": 75,
+          "taxRate": 0
+        },
+        "reference": "SHO-001",
+        "price": 75,
+        "discount": 0,
+        "tax": { "id": 3, "name": "No Tax", "rate": 0 },
+        "quantity": 2,
+        "total": 150
+      }
+    ],
+    "status": "Overdue"
+  },
+  {
+    "number": "004",
+    "client": "NextGen Enterprises",
+    "type": "Simple",
+    "paymentMethod": "Bank Transfer",
+    "date": "2025-04-15",
+    "due_date": "2025-04-29",
+    "amount": 108,
+    "products": [
+      {
+        "id": "row4",
+        "product": {
+          "id": "4056789",
+          "name": "Denim Jeans",
+          "reference": "JNS-001",
+          "price": 45,
+          "taxRate": 20
+        },
+        "reference": "JNS-001",
+        "price": 45,
+        "discount": 0,
+        "tax": { "id": 1, "name": "IVA 20%", "rate": 20 },
+        "quantity": 2,
+        "total": 108
+      }
+    ],
+    "status": "Paid"
+  },
+  {
+    "number": "005",
+    "client": "Starlight Media",
+    "type": "Simple",
+    "paymentMethod": "Credit Card",
+    "date": "2025-05-20",
+    "due_date": "2025-06-03",
+    "amount": 720,
+    "products": [
+      {
+        "id": "row5",
+        "product": {
+          "id": "5067890",
+          "name": "Wool Sweater",
+          "reference": "SWT-001",
+          "price": 60,
+          "taxRate": 20
+        },
+        "reference": "SWT-001",
+        "price": 60,
+        "discount": 0,
+        "tax": { "id": 1, "name": "IVA 20%", "rate": 20 },
+        "quantity": 10,
+        "total": 720
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "number": "006",
+    "client": "TechCorp Inc.",
+    "type": "Simple",
+    "paymentMethod": "PayPal",
+    "date": "2025-06-01",
+    "due_date": "2025-06-15",
+    "amount": 510,
+    "products": [
+      {
+        "id": "row6",
+        "product": {
+          "id": "1023456",
+          "name": "Cotton T-Shirt",
+          "reference": "TSH-001",
+          "price": 30,
+          "taxRate": 20
+        },
+        "reference": "TSH-001",
+        "price": 30,
+        "discount": 0,
+        "tax": { "id": 1, "name": "IVA 20%", "rate": 20 },
+        "quantity": 10,
+        "total": 360
+      },
+      {
+        "id": "row7",
+        "product": {
+          "id": "3045678",
+          "name": "Running Shoes",
+          "reference": "SHO-001",
+          "price": 75,
+          "taxRate": 0
+        },
+        "reference": "SHO-001",
+        "price": 75,
+        "discount": 0,
+        "tax": { "id": 3, "name": "No Tax", "rate": 0 },
+        "quantity": 2,
+        "total": 150
+      }
+    ],
+    "status": "Overdue"
+  },
+  {
+    "number": "007",
+    "client": "GrowEasy LLC",
+    "type": "Simple",
+    "paymentMethod": "Bank Transfer",
+    "date": "2025-07-10",
+    "due_date": "2025-07-24",
+    "amount": 216,
+    "products": [
+      {
+        "id": "row8",
+        "product": {
+          "id": "4056789",
+          "name": "Denim Jeans",
+          "reference": "JNS-001",
+          "price": 45,
+          "taxRate": 20
+        },
+        "reference": "JNS-001",
+        "price": 45,
+        "discount": 0,
+        "tax": { "id": 1, "name": "IVA 20%", "rate": 20 },
+        "quantity": 4,
+        "total": 216
+      }
+    ],
+    "status": "Paid"
+  },
+  {
+    "number": "008",
+    "client": "BlueWave Solutions",
+    "type": "Simple",
+    "paymentMethod": "Credit Card",
+    "date": "2025-08-05",
+    "due_date": "2025-08-19",
+    "amount": 200,
+    "products": [
+      {
+        "id": "row9",
+        "product": {
+          "id": "2034567",
+          "name": "Leather Jacket",
+          "reference": "JCK-001",
+          "price": 200,
+          "taxRate": 10
+        },
+        "reference": "JCK-001",
+        "price": 200,
+        "discount": 0,
+        "tax": { "id": 2, "name": "IVA 10%", "rate": 10 },
+        "quantity": 1,
+        "total": 220
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "number": "009",
+    "client": "NextGen Enterprises",
+    "type": "Simple",
+    "paymentMethod": "PayPal",
+    "date": "2025-09-01",
+    "due_date": "2025-09-15",
+    "amount": 378,
+    "products": [
+      {
+        "id": "row10",
+        "product": {
+          "id": "5067890",
+          "name": "Wool Sweater",
+          "reference": "SWT-001",
+          "price": 60,
+          "taxRate": 20
+        },
+        "reference": "SWT-001",
+        "price": 60,
+        "discount": 0,
+        "tax": { "id": 1, "name": "IVA 20%", "rate": 20 },
+        "quantity": 3,
+        "total": 216
+      },
+      {
+        "id": "row11",
+        "product": {
+          "id": "3045678",
+          "name": "Running Shoes",
+          "reference": "SHO-001",
+          "price": 75,
+          "taxRate": 0
+        },
+        "reference": "SHO-001",
+        "price": 75,
+        "discount": 0,
+        "tax": { "id": 3, "name": "No Tax", "rate": 0 },
+        "quantity": 2,
+        "total": 150
+      }
+    ],
+    "status": "Overdue"
+  },
+  {
+    "number": "010",
+    "client": "Starlight Media",
+    "type": "Simple",
+    "paymentMethod": "Bank Transfer",
+    "date": "2025-10-10",
+    "due_date": "2025-10-24",
+    "amount": 180,
+    "products": [
+      {
+        "id": "row12",
+        "product": {
+          "id": "1023456",
+          "name": "Cotton T-Shirt",
+          "reference": "TSH-001",
+          "price": 30,
+          "taxRate": 20
+        },
+        "reference": "TSH-001",
+        "price": 30,
+        "discount": 0,
+        "tax": { "id": 1, "name": "IVA 20%", "rate": 20 },
+        "quantity": 5,
+        "total": 180
+      }
+    ],
+    "status": "Paid"
+  },
+  {
+    "number": "011",
+    "client": "TechCorp Inc.",
+    "type": "Simple",
+    "paymentMethod": "Credit Card",
+    "date": "2025-11-01",
+    "due_date": "2025-11-15",
+    "amount": 440,
+    "products": [
+      {
+        "id": "row13",
+        "product": {
+          "id": "2034567",
+          "name": "Leather Jacket",
+          "reference": "JCK-001",
+          "price": 200,
+          "taxRate": 10
+        },
+        "reference": "JCK-001",
+        "price": 200,
+        "discount": 0,
+        "tax": { "id": 2, "name": "IVA 10%", "rate": 10 },
+        "quantity": 2,
+        "total": 440
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "number": "012",
+    "client": "GrowEasy LLC",
+    "type": "Simple",
+    "paymentMethod": "PayPal",
+    "date": "2025-12-05",
+    "due_date": "2025-12-19",
+    "amount": 270,
+    "products": [
+      {
+        "id": "row14",
+        "product": {
+          "id": "3045678",
+          "name": "Running Shoes",
+          "reference": "SHO-001",
+          "price": 75,
+          "taxRate": 0
+        },
+        "reference": "SHO-001",
+        "price": 75,
+        "discount": 0,
+        "tax": { "id": 3, "name": "No Tax", "rate": 0 },
+        "quantity": 3,
+        "total": 225
+      },
+      {
+        "id": "row15",
+        "product": {
+          "id": "4056789",
+          "name": "Denim Jeans",
+          "reference": "JNS-001",
+          "price": 45,
+          "taxRate": 20
+        },
+        "reference": "JNS-001",
+        "price": 45,
+        "discount": 0,
+        "tax": { "id": 1, "name": "IVA 20%", "rate": 20 },
+        "quantity": 1,
+        "total": 54
+      }
+    ],
+    "status": "Overdue"
+  },
+  {
+    "number": "013",
+    "client": "BlueWave Solutions",
+    "type": "Simple",
+    "paymentMethod": "Bank Transfer",
+    "date": "2026-01-10",
+    "due_date": "2026-01-24",
+    "amount": 144,
+    "products": [
+      {
+        "id": "row16",
+        "product": {
+          "id": "5067890",
+          "name": "Wool Sweater",
+          "reference": "SWT-001",
+          "price": 60,
+          "taxRate": 20
+        },
+        "reference": "SWT-001",
+        "price": 60,
+        "discount": 0,
+        "tax": { "id": 1, "name": "IVA 20%", "rate": 20 },
+        "quantity": 2,
+        "total": 144
+      }
+    ],
+    "status": "Paid"
+  },
+  {
+    "number": "014",
+    "client": "NextGen Enterprises",
+    "type": "Simple",
+    "paymentMethod": "Credit Card",
+    "date": "2026-02-01",
+    "due_date": "2026-02-15",
+    "amount": 90,
+    "products": [
+      {
+        "id": "row17",
+        "product": {
+          "id": "1023456",
+          "name": "Cotton T-Shirt",
+          "reference": "TSH-001",
+          "price": 30,
+          "taxRate": 20
+        },
+        "reference": "TSH-001",
+        "price": 30,
+        "discount": 0,
+        "tax": { "id": 1, "name": "IVA 20%", "rate": 20 },
+        "quantity": 3,
+        "total": 108
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "number": "015",
+    "client": "Starlight Media",
+    "type": "Simple",
+    "paymentMethod": "PayPal",
+    "date": "2026-03-05",
+    "due_date": "2026-03-19",
+    "amount": 594,
+    "products": [
+      {
+        "id": "row18",
+        "product": {
+          "id": "2034567",
+          "name": "Leather Jacket",
+          "reference": "JCK-001",
+          "price": 200,
+          "taxRate": 10
+        },
+        "reference": "JCK-001",
+        "price": 200,
+        "discount": 20,
+        "tax": { "id": 2, "name": "IVA 10%", "rate": 10 },
+        "quantity": 2,
+        "total": 396
+      },
+      {
+        "id": "row19",
+        "product": {
+          "id": "5067890",
+          "name": "Wool Sweater",
+          "reference": "SWT-001",
+          "price": 60,
+          "taxRate": 20
+        },
+        "reference": "SWT-001",
+        "price": 60,
+        "discount": 0,
+        "tax": { "id": 1, "name": "IVA 20%", "rate": 20 },
+        "quantity": 3,
+        "total": 216
+      }
+    ],
+    "status": "Overdue"
+  }
+]
