@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/trista-logo.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trista</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- Initial Loading Screen -->
+      <div
+        id="loading-screen"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          width: 100%;
+          background: #ffffff;
+        "
+      >
+        <div class="spinner-container">
+          <div class="spinner"></div>
+          <div class="spinner-text">(╥‸╥) trista</div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+  <style>
+    .spinner-container {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .spinner {
+      width: 6em; 
+      height: 6em; 
+      border: 4px solid #ddd;
+      border-top-color: #10b981; 
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    .spinner-text {
+      position: absolute;
+      font-size: 10px;
+      text-align: center;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</html>
